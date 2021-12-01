@@ -16,10 +16,12 @@
 
 
 #include "stm32f0xx.h"
+
+//GLOBAL VARIABLES
 int temp = 0;
 int i = 0;
 
-
+// TODO: CLK -> PA1; OE -> PA2; LAT -> PA3
 
 ////////////////////////////////////////
 //     (red) R1: PC1      G1: PC5 (green)
